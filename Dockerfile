@@ -14,5 +14,4 @@ RUN wget http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.gz && \
 
 # Clean the house
 RUN rm ruby-2.1.4.tar.gz && rm -r ruby-2.1.4 && \
-    apt-get purge -y --auto-remove build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev wget && \
     rm -rf /var/lib/apt/lists/*
