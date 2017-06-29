@@ -1,1 +1,1 @@
-Ubuntu machine with latest version using ruby 2.1.4
+Ubuntu machine with latest version using ruby 2.4.1
